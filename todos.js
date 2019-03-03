@@ -24,7 +24,9 @@ function removeTask() {
 }
 removeButton.onclick = function remove() {
     removeTask();
-    counter--;
+    if(counter > 1) {
+        counter--;
+    }
 }
 
 function clearTask() {
