@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To-Do App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="todo-app">
+        <div id="buttons">
+            <button id="add">ADD</button><!--
+            --><button id="remove">REMOVE</button><!--
+            --><button id="clear">CLEAR</button>
+        </div>
+        <ul id="list">
+
+        </ul>
+    </div>
+
+
+    <script src="todos.js"></script>
+</body>
+<style>
+    #list {
+        padding: 0;
+    }
+    #buttons {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 250px;
+    }
+    div button {
+        margin: 10px;
+    }
+    div input {
+        position: relative; 
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10px;
+        display: block;
+        width: 450px;
+        background: rgb(250, 250, 250);
+    }
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</html>
